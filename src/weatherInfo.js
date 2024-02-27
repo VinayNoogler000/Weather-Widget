@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL = "https://api.openweathermap.org/data/2.5/weather?";
-const API_KEY = "c13d4ae5b5ee077d7e93db5c8858f727";
+const API_KEY = "c13d4ae5b5ee077d7e93db5c8858f727"; //A deactivated API key, so, replace it with a valid & active key.
 let unit = "metric"; //stores the measurement unit of the weather data, sent by the API as a response.
 let langCode = "en"; //stores the code of the language of the weather data, sent by the API as a response.
 
