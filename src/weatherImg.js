@@ -11,25 +11,35 @@ const mistImg = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYW
 
 function getWeatherImg(weather) {
     let imgUrl;
+    
     if(weather == "clear sky") {
         imgUrl = clearSkyImg;
-    } else if(weather == "few clouds") {
+    } 
+    else if(weather == "few clouds") {
         imgUrl = fewCloudsImg;
-    } else if(weather == "scattered clouds") {
+    } 
+    else if(weather == "scattered clouds") {
         imgUrl = scatteredCloudsImg;
-    } else if(weather == "broken clouds") {
+    } 
+    else if(weather == "broken clouds") {
         imgUrl = brokenCloudsImg;
-    } else if(weather == "shower rain") {
+    } 
+    else if(weather == "shower rain") {
         imgUrl = showerRainImg;
-    } else if(weather == "rain") {
+    } 
+    else if(weather == "rain") {
         imgUrl = rainImg;
-    } else if(weather == "thunderstorm") {
+    } 
+    else if(weather == "thunderstorm") {
         imgUrl = thunderStormImg;
-    } else if(weather == "snow") {
+    }
+    else if(weather == "snow") {
         imgUrl = snowImg;
-    } else if(weather == "mist") {
+    }
+    else if(weather == "mist") {
         imgUrl = mistImg;
-    } else {
+    } 
+    else {
         imgUrl = normalWeatherImg;
     }
 
