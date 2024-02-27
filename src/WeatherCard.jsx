@@ -26,7 +26,6 @@ function WeatherCard({ data }) {
                         <div>Max Temperature: {data.tempMax} &deg;C </div>
                         <div>Humidity: {data.humidity}% </div>
                         <div>Pressure: {data.pressure}hpa </div>
-
                     </Typography>
                 </CardContent>
             </Card>
