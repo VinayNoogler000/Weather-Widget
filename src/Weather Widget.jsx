@@ -16,7 +16,9 @@ export default function WeatherWidget() {
         tempMin: 29.94,
         weather: "smoke",
         pressure: 1014,
-    });
+    }); //The above👆 'weatherData' stateVar gets initialized by an object storing random
+    //weather data of "Mumbai" city, to display some weather data in the first render,
+    //by passing it to the 'WeatherCard' component.
 
     return (
         <div>
