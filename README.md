@@ -10,7 +10,7 @@ I developed this project by using front-end technologies: *HTML, CSS, JavaScript
 I used *Vite* tool to setup local environment for this React project.
 
 ## Note:
-All the main files, which contains code of this project are in the *src* folder/directory. To fetch weather data, [OpenWeatherMap's](https://openweathermap.org/current) API has been used.
+All the main files, which contains code of this project are in the *src* folder/directory. To get weather data, [OpenWeatherMap's](https://openweathermap.org/current) API has been used.
 
 ## Development Journey:
 First, I learnt about Material UI library and it's pre-defined React UI components. Then I started  developing the project, by figuring out the total no. of components I need to create, starting from the bottom. Here the following components:
