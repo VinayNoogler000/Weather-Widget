@@ -13,4 +13,4 @@ I used *Vite* tool to setup local environment for this React project.
 All the main files, which contains code of this project are in the *src* folder/directory.
 
 ## Development Journey:
- 
+First, I learnt about MUI library and it's pre-defined React UI components. Then I started  developing the project, by figuring out the total no. of components I need to create, starting from the bottom.
