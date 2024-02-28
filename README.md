@@ -25,4 +25,4 @@ There are two additional features added in this project:
 1. After the location name on the `<WeatherCard />` component, different MUI icons gets rendered, according to the description of the weather of that location. The logic is defined in the [WeatherIcon.jsx](https://github.com/VinayNoogler000/Weather-Widget/blob/main/src/WeatherIcon.jsx) file.
 2. The image on the `<WeatherCard />` component dynamically changes, depending on the description of the weather. These images are an example of the current weather of that location, but not the exact image of the current weather of that location. The logic is defined in [weatherImg.js](https://github.com/VinayNoogler000/Weather-Widget/blob/main/src/weatherImg.js) file.
   
-## Play around with this Weather Widget & feel free to give feedbacks🙏😇 
+## Play Around With This Weather Widget & Feel Free To Give Feedbacks🙏😇 
